@@ -4,55 +4,33 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #444;
   }
-  
-  .nav-color {
-    background-color: #a2a29f;
-  }
-  
-  .Logo {
+.nav-color{
+    background-color: #A2A29F;
+}
+.Logo{
     height: 70px;
     width: 70px;
     margin-right: 10px;
-  }
-  
-  .todo {
+}
+
+.todo{
     color: black;
     margin-right: 10px;
     font-weight: bold;
-  }
-  
-  .nav-item {
+}
+.nav-item{
     color: black;
     margin-right: 10px;
+   
     font-weight: 500;
-  }
-  
-  .nav-item:hover {
+}
+.nav-item:hover{
     text-decoration: underline;
-  }
-  
-  .foot {
+}
+.foot{
     background-color: #262626;
     color: white;
+    width: 100%;
+    margin-bottom: 0;
     padding-bottom: 0;
   }
-  
-  .container {
-    margin-top: 20px;
-    margin-bottom: 60px; /* Add margin to push the content above the footer */
-  }
-  
-  @media (max-width: 767px) {
-    .foot {
-      position: relative;
-      bottom: 0;
-      width: 100%;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    .container {
-      margin-bottom: 0; /* Reset the margin for larger screens */
-    }
-  }
-  
